@@ -15,5 +15,5 @@ app.use('/api/notes', require('./routes/notes'))
 
 
 app.listen(port, () => {
-  console.log(`MongoDb backend listening at http://localhost:${port}`)
+  console.log(`MongoDb backend listening at ${port}`)
 })
